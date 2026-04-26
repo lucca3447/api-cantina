@@ -5,6 +5,13 @@ from core.config import settings
 from core.database import Base, engine
 
 from models.categoria_model import Categoria
+from models.estoque_model import Estoque
+from models.fornecedor_model import Fornecedor
+from models.fornecedor_produto_model import FornecedorProduto
+from models.funcionario_model import Funcionario
+from models.item_pedido_model import ItemPedido
+from models.pedido_model import Pedido
+from models.produto_model import Produto
 from routers.categoria_router import router as categoria_router
 
 
