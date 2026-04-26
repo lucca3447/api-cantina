@@ -39,7 +39,7 @@ cp .env.example .env
 # Edite o .env com suas credenciais MySQL
 
 # 3. Suba o servidor
-uvicorn cantina.main:app --reload
+uvicorn main:app --reload
 ```
 
 
